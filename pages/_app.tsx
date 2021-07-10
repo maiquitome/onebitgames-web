@@ -5,6 +5,8 @@ import Head from 'next/head'
 
 import '../styles/globals.css'
 
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <>
